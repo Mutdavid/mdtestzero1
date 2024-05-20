@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="index.css">
+<head>
+	<title>Infocom</title>
+</head>
+<body>
+	<center>
+		<div class="container">
+		<h1><strong><u>Personal Details</u></strong></h1>
+<form action="info.php" method="POST">
+	<table>
+		<tr>
+			<td>Firstname:</td>
+			<td><input type="text" name="Firstname" required>
+			</td>
+		</tr>
+		<tr>
+			<td>Lastname:</td>
+			<td>
+			<input type="text" name="Lastname" required>	
+			</td>
+		</tr>
+
+		<tr>
+			<td>Gender:</td>
+			<td>
+				<input type="radio" name="Gender" value="m" required>Male
+				<input type="radio" name="Gender" value="f" required>Female
+			</td>
+		</tr>
+
+		<tr><td>Phone:</td>
+			<td>
+			<input type="phoneCode" name="Phone" required>	
+			</td>
+		</tr>
+		<tr>
+	<td>Email:</td>
+			<td>
+				
+	<input type="email" name="Email" required>
+			</td>
+		</tr>
+	</table>
+	<tr>
+		<td>
+			<input type="Submit" name="Submit">
+		</td>
+	</tr>
+	
+
+	<td>
+			<input type="Reset" name="Reset">
+		</td>
+	</tr>
+		
+</form>
+	</div>
+	</center>
+	
+
+</body>
+</html>
